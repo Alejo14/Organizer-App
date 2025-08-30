@@ -5,6 +5,12 @@
   --fourth-color: #bbe1fa;
   --accent-color: rgba(255, 255, 255, 0.87);
 
+  --danger-dark: rgb(172, 37, 37);
+  --danger-light: rgb(206, 86, 86);
+
+  --success-dark: rgb(8, 141, 48);
+  --success-light: rgb(71, 147, 115);
+
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;

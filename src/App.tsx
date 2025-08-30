@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./layout/Navbar/Navbar";
-import BucketsPage from "./pages/Buckets.Page";
+import BucketsPage from "./pages/Buckets/BucketsPage";
 
 function App() {
   return (

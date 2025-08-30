@@ -1,13 +1,5 @@
-type Bucket = {
-  id: number;
-  title: string;
-  description: string;
-  items: {
-    opened: number;
-    closed: number;
-  };
-};
+import type { TBucket } from "../../../types/general-types";
 
 export type BucketProps = {
-  bucket: Bucket;
+  bucket: TBucket;
 };

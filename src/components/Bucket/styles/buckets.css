@@ -1,6 +1,6 @@
 .bucket {
-  border: 1px solid white;
-  background-color: rgb(26, 22, 22);
+  border: 1px solid var(--accent-color);
+  background-color: var(--second-color);
   min-width: max-content;
   min-height: max-content;
   width: 400px;
@@ -36,10 +36,10 @@
   align-items: center;
 }
 .open-items {
-  border: 1px solid rgb(172, 37, 37);
-  background-color: rgb(206, 86, 86);
+  border: 1px solid var(--danger-dark);
+  background-color: var(--danger-light);
 }
 .close-items {
-  border: 1px solid rgb(8, 141, 48);
-  background-color: rgb(71, 192, 142);
+  border: 1px solid var(--success-dark);
+  background-color: var(--success-light);
 }

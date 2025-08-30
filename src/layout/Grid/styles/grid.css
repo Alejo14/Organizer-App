@@ -3,5 +3,4 @@
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
   gap: 30px;
-  padding: 30px;
 }
