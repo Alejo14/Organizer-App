@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./layout/Navbar/Navbar";
 import BucketsPage from "./pages/Buckets/BucketsPage";
+import Footer from "./layout/Footer/Footer";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       <section className="content">
         <BucketsPage />
       </section>
-      <section className="footer"></section>
+      <section className="footer">
+        <Footer />
+      </section>
     </>
   );
 }
