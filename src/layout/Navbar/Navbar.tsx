@@ -1,4 +1,4 @@
-import "./styles/styles.css";
+import "./styles/navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle, faUserGear } from "@fortawesome/free-solid-svg-icons";
 
