@@ -1,0 +1,45 @@
+.bucket {
+  border: 1px solid white;
+  background-color: rgb(26, 22, 22);
+  min-width: max-content;
+  min-height: max-content;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  display: grid;
+  grid-template-areas: "title" "description" "description" "items";
+}
+.title {
+  grid-area: title;
+}
+.description {
+  grid-area: description;
+  text-align: justify;
+}
+.items {
+  grid-area: items;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+  font-weight: bold;
+}
+.open-items,
+.close-items {
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  align-items: center;
+}
+.open-items {
+  border: 1px solid rgb(172, 37, 37);
+  background-color: rgb(206, 86, 86);
+}
+.close-items {
+  border: 1px solid rgb(8, 141, 48);
+  background-color: rgb(71, 192, 142);
+}
