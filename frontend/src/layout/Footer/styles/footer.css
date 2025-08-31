@@ -1,0 +1,16 @@
+.footer {
+  background-color: var(--second-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.description {
+  display: inline;
+}
+
+.copyright {
+  display: inline;
+}
