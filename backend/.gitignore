@@ -1,0 +1,64 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vscode/
+.vs/
+
+# Dotnet tools
+*.dll
+*.exe
+*.app
+*.pdb
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Publish outputs
+publish/
+out/
+
+# Entity Framework
+Migrations/
+
+# Project files
+project.lock.json
+project.fragment.lock.json
+
+# Environment & secrets
+.env
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+secrets.json
