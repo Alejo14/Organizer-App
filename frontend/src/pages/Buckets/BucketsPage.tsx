@@ -14,9 +14,13 @@ import type { TBucket } from "@/types/general-types";
 const BucketsPage = () => {
   const [buckets, setBuckets] = useState<TBucket[]>([]);
 
+  const handleGetBuckets = async () => {
+    const buckets = await getBuckets();
+    setBuckets(buckets);
+  };
+
   useEffect(() => {
-    const data = getBuckets();
-    setBuckets(data);
+    handleGetBuckets();
   }, []);
 
   const handleCreation = (

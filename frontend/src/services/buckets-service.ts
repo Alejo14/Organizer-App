@@ -33,6 +33,8 @@ const buckets = [
   },
 ];
 
+const apiURL = import.meta.env.VITE_BASE_URL_HTTPS;
+
 class Bucket {
   title = "";
   description = "";
@@ -55,8 +57,11 @@ export const createBucket = (): TBucket => {
   return newBucket;
 };
 
-export const getBuckets = (): TBucket[] => {
-  return buckets;
+export const getBuckets = async (): Promise<TBucket[]> => {
+  const response = await fetch(`${apiURL}/api/Bucket`);
+  const result = await response.json();
+
+  return result as TBucket[];
 };
 
 export const saveBuckets = () => {
